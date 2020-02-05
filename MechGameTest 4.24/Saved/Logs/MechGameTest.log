@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 02/05/20 00:49:03
+=======
+﻿Log file open, 01/27/20 19:19:56
+>>>>>>> 69dfd010f923c09ef59dca1061fd55a4727d2faf
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,8 +12,13 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
 LogInit: Display: Running engine for game: MechGameTest
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.049722
+=======
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.161946
+>>>>>>> 69dfd010f923c09ef59dca1061fd55a4727d2faf
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -125,6 +134,7 @@ LogInit: Build: ++UE4+Release-4.24-CL-10570792
 LogInit: Engine Version: 4.24.0-10570792+++UE4+Release-4.24
 LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
 LogInit: Net CL: 10570792
+<<<<<<< HEAD
 LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz, GPU: NVIDIA GeForce RTX 2070
 LogInit: Compiled (64-bit): Dec  6 2019 02:05:13
 LogInit: Compiled with Visual C++: 19.16.27032.01
@@ -132,6 +142,15 @@ LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.24
 LogInit: Command Line: 
 LogInit: Base Directory: D:/UE_4.24/Engine/Binaries/Win64/
+=======
+LogInit: OS: Windows 10 (Release 1803) (), CPU: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 520
+LogInit: Compiled (64-bit): Dec 17 2019 02:08:03
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line:  -EpicPortal -epicusername=Unsungboiyo -epicuserid=4e384128845841888883e2e9f6c75893 -epiclocale=en-US
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+>>>>>>> 69dfd010f923c09ef59dca1061fd55a4727d2faf
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 25
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -163,6 +182,7 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2020.02.05-05.49.04:100][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.02.05-05.49.04:100][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2020.02.05-05.49.04:100][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/MIKE_/Documents/MECH GAME/MechGameTest 4.24/Saved/Config/Windows/Engine.ini]
@@ -12212,3 +12232,545 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.05-07.02.28:668][359]LogD3D11RHI: CleanupD3DDevice
 [2020.02.05-07.02.28:674][359]LogExit: Exiting.
 [2020.02.05-07.02.28:678][359]Log file closed, 02/05/20 02:02:28
+=======
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Engine.ini]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Engine.ini]
+[2020.01.28-00.19.56:962][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Engine.ini]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Engine.ini]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.01.28-00.19.56:962][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Engine.ini]
+[2020.01.28-00.19.56:962][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Engine.ini]
+[2020.01.28-00.19.56:972][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Scalability.ini]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Scalability.ini]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Scalability.ini]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Scalability.ini]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.01.28-00.19.56:972][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Scalability.ini]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Scalability.ini]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.01.28-00.19.56:973][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Scalability.ini]
+[2020.01.28-00.19.56:973][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.01.28-00.19.56:974][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.01.28-00.19.56:974][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Scalability.ini]
+[2020.01.28-00.19.56:974][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.01.28-00.19.56:974][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.01.28-00.19.56:974][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.01.28-00.19.56:974][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.28-00.19.56:974][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.28-00.19.56:977][  0]LogHAL: Display: Platform has ~ 8 GB [8450646016 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.01.28-00.19.56:977][  0]LogInit: Going up to parent DeviceProfile []
+[2020.01.28-00.19.56:977][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Scalability.ini]
+[2020.01.28-00.19.56:977][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.01.28-00.19.56:977][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.01.28-00.19.56:977][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Scalability.ini]
+[2020.01.28-00.19.56:977][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.01.28-00.19.56:977][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Scalability.ini]
+[2020.01.28-00.19.56:977][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.01.28-00.19.56:977][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.01.28-00.19.56:977][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.01.28-00.19.56:977][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.01.28-00.19.56:977][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.01.28-00.19.56:977][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.01.28-00.19.56:977][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.01.28-00.19.56:977][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.01.28-00.19.56:977][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.01.28-00.19.56:977][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.01.28-00.19.56:977][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.01.28-00.19.56:977][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.01.28-00.19.56:977][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Scalability.ini]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Scalability.ini]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Scalability.ini]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.01.28-00.19.56:978][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.01.28-00.19.56:979][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.01.28-00.19.56:979][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.01.28-00.19.56:979][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.01.28-00.19.56:979][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.01.28-00.19.56:979][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.01.28-00.19.56:979][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.01.28-00.19.56:979][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Scalability.ini]
+[2020.01.28-00.19.56:979][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.01.28-00.19.56:979][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.01.28-00.19.56:979][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Scalability.ini]
+[2020.01.28-00.19.56:979][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.01.28-00.19.56:979][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.01.28-00.19.56:979][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.01.28-00.19.56:979][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.01.28-00.19.56:979][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.01.28-00.19.56:979][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.01.28-00.19.56:979][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Config/Windows/Engine.ini]
+[2020.01.28-00.19.56:979][  0]LogInit: Computer: BHGSWCHOI
+[2020.01.28-00.19.56:979][  0]LogInit: User: swchoi
+[2020.01.28-00.19.56:979][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.01.28-00.19.56:979][  0]LogInit: High frequency timer resolution =2.742188 MHz
+[2020.01.28-00.19.56:980][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.01.28-00.19.56:980][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.28-00.19.56:980][  0]LogMemory: Process Physical Memory: 103.25 MB used, 103.25 MB peak
+[2020.01.28-00.19.56:980][  0]LogMemory: Process Virtual Memory: 99.68 MB used, 99.68 MB peak
+[2020.01.28-00.19.56:980][  0]LogMemory: Physical Memory: 6179.60 MB used,  1879.56 MB free, 8059.16 MB total
+[2020.01.28-00.19.56:980][  0]LogMemory: Virtual Memory: 5128.77 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.01.28-00.19.56:984][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.01.28-00.19.57:000][  0]LogInit: Using OS detected language (en-US).
+[2020.01.28-00.19.57:001][  0]LogInit: Using OS detected locale (en-US).
+[2020.01.28-00.19.57:002][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.01.28-00.19.57:246][  0]LogInit: Setting process to per monitor DPI aware
+[2020.01.28-00.19.57:296][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.01.28-00.19.57:296][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.01.28-00.19.57:472][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.28-00.19.57:472][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.01.28-00.19.57:472][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.01.28-00.19.57:472][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.28-00.19.57:501][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2020.01.28-00.19.57:501][  0]LogD3D11RHI:       128/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.01.28-00.19.57:504][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.28-00.19.57:504][  0]LogD3D11RHI:       0/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.28-00.19.57:504][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.28-00.19.57:526][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.28-00.19.57:526][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.28-00.19.57:527][  0]LogWindows: EnumDisplayDevices:
+[2020.01.28-00.19.57:527][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2020.01.28-00.19.57:527][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2020.01.28-00.19.57:527][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2020.01.28-00.19.57:528][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2020.01.28-00.19.57:528][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2020.01.28-00.19.57:528][  0]LogD3D11RHI:   Driver Version: 23.20.16.4973 (internal:23.20.16.4973, unified:23.20.16.4973)
+[2020.01.28-00.19.57:528][  0]LogD3D11RHI:      Driver Date: 2-28-2018
+[2020.01.28-00.19.57:528][  0]LogRHI: Texture pool is 1499 MB (70% of 2142 MB)
+[2020.01.28-00.19.57:557][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.01.28-00.19.57:557][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.28-00.19.57:565][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2020.01.28-00.19.58:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.01.28-00.19.58:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.01.28-00.19.58:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.01.28-00.19.58:091][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.01.28-00.19.58:091][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.01.28-00.19.58:099][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.01.28-00.19.58:108][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.01.28-00.19.58:117][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.01.28-00.19.58:126][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.01.28-00.19.58:135][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.01.28-00.19.58:144][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.01.28-00.19.58:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.01.28-00.19.58:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.01.28-00.19.58:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.01.28-00.19.58:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.01.28-00.19.58:199][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.01.28-00.19.58:210][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.01.28-00.19.58:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.01.28-00.19.58:227][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.01.28-00.19.58:227][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.01.28-00.19.58:229][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.01.28-00.19.58:257][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Intermediate/Shaders/WorkingDirectory/95904/).
+[2020.01.28-00.19.58:257][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/swchoi/AppData/Local/Temp/UnrealShaderWorkingDir/6A23951547E89D5158FD02A800E83404/'.
+[2020.01.28-00.19.58:258][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.01.28-00.19.58:258][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.01.28-00.19.58:258][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.01.28-00.19.59:255][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.01.28-00.19.59:327][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/swchoi/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.01.28-00.19.59:327][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/swchoi/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.01.28-00.19.59:327][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.28-00.19.59:327][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.28-00.19.59:327][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.28-00.19.59:327][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.28-00.19.59:341][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.28-00.19.59:342][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.28-00.19.59:342][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.01.28-00.19.59:343][  0]LogDerivedDataCache: Using Local data cache path C:/Users/swchoi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.28-00.19.59:343][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.01.28-00.19.59:343][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.01.28-00.19.59:377][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.28-00.19.59:381][  0]LogSlate: Using FreeType 2.10.0
+[2020.01.28-00.19.59:381][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.28-00.19.59:442][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
+[2020.01.28-00.19.59:861][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.28-00.20.00:084][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.28-00.20.00:084][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.01.28-00.20.00:084][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.01.28-00.20.00:084][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.01.28-00.20.00:084][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.01.28-00.20.00:107][  0]LogNetVersion: MechGameTest 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1952277128)
+[2020.01.28-00.20.00:175][  0]LogInput: Warning: Action Fire uses deprecated key MotionController_Right_Trigger.
+[2020.01.28-00.20.00:175][  0]LogInput: Warning: Action Jump uses deprecated key MotionController_Left_Trigger.
+[2020.01.28-00.20.00:175][  0]LogInput: Warning: Action ResetVR uses deprecated key MotionController_Left_Grip1.
+[2020.01.28-00.20.00:175][  0]LogInput: Warning: Axis MoveForward uses deprecated key MotionController_Left_Thumbstick_Y.
+[2020.01.28-00.20.00:175][  0]LogInput: Warning: Axis MoveRight uses deprecated key MotionController_Left_Thumbstick_X.
+[2020.01.28-00.20.01:509][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.082572 seconds
+[2020.01.28-00.20.01:521][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.01.28-00.20.01:521][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.01.28-00.20.01:521][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.28-00.20.02:070][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.28-00.20.02:075][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.28-00.20.02:157][  0]SourceControl: Source control is disabled
+[2020.01.28-00.20.02:157][  0]SourceControl: Source control is disabled
+[2020.01.28-00.20.02:159][  0]SourceControl: Source control is disabled
+[2020.01.28-00.20.02:159][  0]SourceControl: Source control is disabled
+[2020.01.28-00.20.02:162][  0]SourceControl: Source control is disabled
+[2020.01.28-00.20.02:170][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.01.28-00.20.02:171][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.01.28-00.20.02:273][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.28-00.20.02:292][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.01.28-00.20.02:293][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.01.28-00.20.02:461][  0]LogOcInput: OculusInput pre-init called
+[2020.01.28-00.20.02:476][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.01.28-00.20.02:476][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.01.28-00.20.02:610][  0]LogEngine: Initializing Engine...
+[2020.01.28-00.20.02:612][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.28-00.20.02:614][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.01.28-00.20.03:254][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.01.28-00.20.03:265][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.01.28-00.20.03:476][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.28-00.20.03:476][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.28-00.20.03:476][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.28-00.20.03:476][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.28-00.20.03:476][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.28-00.20.03:476][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.28-00.20.03:476][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.28-00.20.03:476][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.28-00.20.03:477][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.28-00.20.03:477][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.28-00.20.03:503][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.28-00.20.03:503][  0]LogAudioMixer: Display: Name: SAMSUNG (Intel(R) Display Audio)
+[2020.01.28-00.20.03:503][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.01.28-00.20.03:503][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.28-00.20.03:503][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.28-00.20.03:503][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.28-00.20.03:503][  0]LogAudioMixer: Display: Channel Order:
+[2020.01.28-00.20.03:503][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.28-00.20.03:503][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.01.28-00.20.03:539][  0]LogAudioMixer: Display: Using Audio Device SAMSUNG (Intel(R) Display Audio)
+[2020.01.28-00.20.03:547][  0]LogInit: FAudioDevice initialized.
+[2020.01.28-00.20.03:548][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.01.28-00.20.03:803][  0]LogDerivedDataCache: Saved boot cache 0.26s 78MB C:/Users/swchoi/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.01.28-00.20.03:814][  0]LogInit: Texture streaming: Enabled
+[2020.01.28-00.20.03:832][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.01.28-00.20.03:832][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.01.28-00.20.03:834][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.01.28-00.20.03:932][  0]LogInit: Transaction tracking system initialized
+[2020.01.28-00.20.03:946][  0]BlueprintLog: New page: Editor Load
+[2020.01.28-00.20.03:985][  0]LocalizationService: Localization service is disabled
+[2020.01.28-00.20.04:056][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.01.28-00.20.04:056][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.01.28-00.20.04:472][  0]LogFileCache: Scanning file cache for directory 'C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Content/' took 0.01s
+[2020.01.28-00.20.04:472][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.01.28-00.20.04:472][  0]LogCook: Display: Mobile HDR setting 1
+[2020.01.28-00.20.05:378][  0]SourceControl: Source control is disabled
+[2020.01.28-00.20.05:378][  0]Cmd: MAP LOAD FILE="../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.28-00.20.05:379][  0]LightingResults: New page: Lighting Build
+[2020.01.28-00.20.05:380][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.01.28-00.20.05:380][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.28-00.20.05:381][  0]MapCheck: New page: Map Check
+[2020.01.28-00.20.05:381][  0]LightingResults: New page: Lighting Build
+[2020.01.28-00.20.05:412][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.01.28-00.20.05:762][  0]LogLinker: Warning: While loading '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.01.28-00.20.05:763][  0]LogLinker: Warning: While loading '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.01.28-00.20.05:768][  0]LogLinker: Warning: While loading '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.01.28-00.20.05:768][  0]LogLinker: Warning: While loading '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.01.28-00.20.05:770][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.01.28-00.20.05:771][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.01.28-00.20.05:771][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.01.28-00.20.05:771][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.01.28-00.20.05:778][  0]LogLinker: Warning: While loading '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.01.28-00.20.05:778][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2020.01.28-00.20.05:778][  0]LogLinker: Warning: While loading '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.01.28-00.20.05:778][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2020.01.28-00.20.06:130][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.01.28-00.20.06:146][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.28-00.20.06:189][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.01.28-00.20.06:190][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.28-00.20.06:190][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.18ms to complete.
+[2020.01.28-00.20.06:190][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.812
+[2020.01.28-00.20.06:428][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.28-00.20.06:449][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.28-00.20.06:469][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.28-00.20.06:483][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.28-00.20.06:491][  0]LogCollectionManager: Loaded 0 collections in 0.003345 seconds
+[2020.01.28-00.20.06:516][  0]LogFileCache: Scanning file cache for directory 'C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Collections/' took 0.00s
+[2020.01.28-00.20.06:516][  0]LogFileCache: Scanning file cache for directory 'C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Content/Developers/swchoi/Collections/' took 0.00s
+[2020.01.28-00.20.06:516][  0]LogFileCache: Scanning file cache for directory 'C:/Users/swchoi/Documents/mechgame/MechGameTest 4.24/Content/Collections/' took 0.00s
+[2020.01.28-00.20.06:516][  0]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 3015 classes and 717 folders.
+[2020.01.28-00.20.06:518][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.01.28-00.20.06:582][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.01.28-00.20.06:587][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2020.01.28-00.20.06:757][  0]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.28-00.20.06:761][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.28-00.20.06:769][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.28-00.20.06:919][  0]LogRenderer: Reallocating scene render targets to support 484x284 Format 10 NumSamples 1 (Frame:1).
+[2020.01.28-00.20.07:382][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.01.28-00.20.07:382][  0]LogLoad: (Engine Initialization) Total time: 12.61 seconds
+[2020.01.28-00.20.07:382][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.01.28-00.20.07:435][  0]LogAssetRegistry: Asset discovery search completed in 7.9936 seconds
+[2020.01.28-00.20.07:439][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2020.01.28-00.20.07:440][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.01.28-00.20.07:811][  0]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.28-00.20.11:504][ 81]LogSlate: Window 'Message Log' being destroyed
+[2020.01.28-00.20.16:906][312]LogRenderer: Reallocating scene render targets to support 484x288 Format 10 NumSamples 1 (Frame:303).
+[2020.01.28-00.20.17:047][313]LogRenderer: Reallocating scene render targets to support 484x296 Format 10 NumSamples 1 (Frame:305).
+[2020.01.28-00.20.17:137][314]LogRenderer: Reallocating scene render targets to support 484x316 Format 10 NumSamples 1 (Frame:307).
+[2020.01.28-00.20.17:217][315]LogRenderer: Reallocating scene render targets to support 484x320 Format 10 NumSamples 1 (Frame:309).
+[2020.01.28-00.20.17:302][316]LogRenderer: Reallocating scene render targets to support 484x324 Format 10 NumSamples 1 (Frame:311).
+[2020.01.28-00.20.17:385][317]LogRenderer: Reallocating scene render targets to support 484x332 Format 10 NumSamples 1 (Frame:313).
+[2020.01.28-00.20.17:469][318]LogRenderer: Reallocating scene render targets to support 484x340 Format 10 NumSamples 1 (Frame:315).
+[2020.01.28-00.20.17:608][320]LogRenderer: Reallocating scene render targets to support 484x344 Format 10 NumSamples 1 (Frame:319).
+[2020.01.28-00.20.17:691][321]LogRenderer: Reallocating scene render targets to support 484x348 Format 10 NumSamples 1 (Frame:321).
+[2020.01.28-00.20.17:771][322]LogRenderer: Reallocating scene render targets to support 484x352 Format 10 NumSamples 1 (Frame:323).
+[2020.01.28-00.20.21:980][509]LogRenderer: Reallocating scene render targets to support 488x352 Format 10 NumSamples 1 (Frame:465).
+[2020.01.28-00.20.22:071][510]LogRenderer: Reallocating scene render targets to support 500x352 Format 10 NumSamples 1 (Frame:467).
+[2020.01.28-00.20.22:163][511]LogRenderer: Reallocating scene render targets to support 508x352 Format 10 NumSamples 1 (Frame:469).
+[2020.01.28-00.20.22:249][512]LogRenderer: Reallocating scene render targets to support 512x352 Format 10 NumSamples 1 (Frame:471).
+[2020.01.28-00.20.22:333][513]LogRenderer: Reallocating scene render targets to support 520x352 Format 10 NumSamples 1 (Frame:473).
+[2020.01.28-00.20.22:418][514]LogRenderer: Reallocating scene render targets to support 524x352 Format 10 NumSamples 1 (Frame:475).
+[2020.01.28-00.20.44:220][414]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.28-00.20.44:257][414]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.01.28-00.20.44:568][414]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2020.01.28-00.20.45:656][414]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.01.28-00.20.50:068][543]LogSlate: Took 0.010797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.01.28-00.23.06:463][410]LogEditorTransaction: Undo Add Node
+[2020.01.28-00.23.18:961][860]LogEditorTransaction: Undo Add Node
+[2020.01.28-00.24.09:435][553]LogEditorTransaction: Undo Move Node
+[2020.01.28-00.25.07:078][511]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.01.28-00.25.07:439][511]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2020.01.28-00.25.08:440][524]LogSavePackage: Moving '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/FirstPersonCharacter2F0B25A34B66D4EA589E73BDC0AA05C2.tmp' to '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2020.01.28-00.25.08:479][524]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2020.01.28-00.25.08:479][524]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.01.28-00.26.04:878][651]LogEditorTransaction: Undo Add Node
+[2020.01.28-00.31.08:921][788]LogRenderer: Reallocating scene render targets to support 760x540 Format 10 NumSamples 1 (Frame:1).
+[2020.01.28-00.32.00:560][772]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
+[2020.01.28-00.32.00:876][772]LogSavePackage: Moving '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/FirstPersonExampleMap_Auto1680F7C824F38796835C309B37DA80E04.tmp' to '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2020.01.28-00.32.00:880][772]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.375
+[2020.01.28-00.32.00:880][772]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.375
+[2020.01.28-00.32.00:881][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2020.01.28-00.32.00:917][772]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2020.01.28-00.32.00:917][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2020.01.28-00.32.01:074][772]LogSavePackage: Moving '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/FirstPersonCharacter_Auto1E1C244D640F8B827632869B3742D3186.tmp' to '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2020.01.28-00.32.01:075][772]LogFileHelpers: Auto-saving content packages took 0.195
+[2020.01.28-00.32.04:219][832]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.01.28-00.32.04:543][832]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2020.01.28-00.32.05:316][839]LogSavePackage: Moving '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/FirstPersonCharacter073EF15C48BD2064409885AAFD1FEB78.tmp' to '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2020.01.28-00.32.05:342][839]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2020.01.28-00.32.05:342][839]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.01.28-00.42.01:397][793]LogUObjectHash: Compacting FUObjectHashTables data took   6.22ms
+[2020.01.28-00.42.01:712][793]LogSavePackage: Moving '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/FirstPersonExampleMap_Auto2AEA1A5B0410C9AD71079FE86DDDD4264.tmp' to '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2020.01.28-00.42.01:715][793]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.378
+[2020.01.28-00.42.01:715][793]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.378
+[2020.01.28-00.43.52:849][127]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.01.28-00.43.53:176][127]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2020.01.28-00.43.53:748][128]LogSavePackage: Moving '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/FirstPersonCharacterAD5082FF42ABCE395E5BCA8AED68EB3A.tmp' to '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2020.01.28-00.43.53:770][128]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2020.01.28-00.43.53:770][128]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.01.28-00.52.02:870][570]LogUObjectHash: Compacting FUObjectHashTables data took  14.07ms
+[2020.01.28-00.52.03:579][570]LogSavePackage: Moving '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/FirstPersonExampleMap_Auto3ABDEA2B6445AA48E581063927012D2A1.tmp' to '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2020.01.28-00.52.03:583][570]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.922
+[2020.01.28-00.52.03:583][570]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.922
+[2020.01.28-00.53.24:286][559]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.01.28-00.53.24:829][559]LogUObjectHash: Compacting FUObjectHashTables data took   6.38ms
+[2020.01.28-00.53.25:292][559]LogSavePackage: Moving '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/FirstPersonCharacterC7544B554CDA0ADCDCB0D0810FB1EE27.tmp' to '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2020.01.28-00.53.25:327][559]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2020.01.28-00.53.25:327][559]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.01.28-00.53.26:531][572]LogSavePackage: Moving '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Saved/FirstPersonCharacterDACC20FB43ADB833CB5E499E80ECFC0C.tmp' to '../../../../../../Users/swchoi/Documents/mechgame/MechGameTest 4.24/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2020.01.28-00.53.26:563][572]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2020.01.28-00.53.26:563][572]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.01.28-00.58.36:169][197]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{a3ae5fa6-392c-4b55-95f0-0146d0ec0e83}.
+[2020.01.28-00.58.36:169][197]LogTemp: Resetting audio stream to device id 
+[2020.01.28-00.58.40:665][197]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.28-00.58.40:665][197]LogAudioMixer: Display: Name: Speakers / Headphones (Conexant SmartAudio HD)
+[2020.01.28-00.58.40:665][197]LogAudioMixer: Display: Is Default: Yes
+[2020.01.28-00.58.40:665][197]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.28-00.58.40:665][197]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.28-00.58.40:665][197]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.28-00.58.40:665][197]LogAudioMixer: Display: Channel Order:
+[2020.01.28-00.58.40:665][197]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.28-00.58.40:665][197]LogAudioMixer: Display: 1: FrontRight
+[2020.01.28-00.59.01:328][198]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+>>>>>>> 69dfd010f923c09ef59dca1061fd55a4727d2faf
